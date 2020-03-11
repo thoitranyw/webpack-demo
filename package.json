@@ -6,19 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.dev.js --watch",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack -p --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "convict": "^5.2.0",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "node-env-webpack-plugin": "^1.1.0",
     "node-sass": "^4.13.1",
+    "raven-js": "^3.27.2",
     "sass": "^1.26.2",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",

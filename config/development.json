@@ -1,0 +1,5 @@
+{
+    "env": "development",
+    "api": "https://api-dev.manysales.io",
+    "sentry": "https://3516e8e8294f46adb924d9f8bbfd26d2@sentry.fireapps.io/28"
+}
